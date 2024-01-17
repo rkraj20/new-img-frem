@@ -53,4 +53,54 @@ img{
 .section-imgs > div{
     flex: 1;
 }
-
+@media screen and (max-width:576px){
+    .header{
+        height: 100px; 
+    }
+    .header-title{
+        font-size: 30px;
+    }
+    .bg{
+        height: 200px;
+    }
+    .section-img{
+        height: 200px;
+    }
+    .section-imgs{
+        height: 200px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px){
+    .header{
+        height: 150px; 
+    }
+    .header-title{
+        font-size: 40px;
+    }
+    .bg{
+        height: 300px;
+    }
+    .section-img{
+        height: 200px;
+    }
+    .section-imgs{
+        height: 200px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .header{
+        height: 200px; 
+    }
+    .header-title{
+        font-size: 80px;
+    }
+    .bg{
+        height: 350px;
+    }
+    .section-img{
+        height: 350px;
+    }
+    .section-imgs{
+        height: 350px;
+    }
+}
